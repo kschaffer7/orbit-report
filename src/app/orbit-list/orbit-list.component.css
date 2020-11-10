@@ -14,6 +14,7 @@ table {
   margin: 12px 0;
   min-width: 300px;
   background: #dad8d8;
+  
 }
 
 .header-row {
@@ -25,5 +26,7 @@ th, td {
     text-align: left;
     margin: 5px 10px;
     padding: 6px;
-    
+
 }
+/* adds alternating row colors */
+tr:nth-child(even) {background-color: turquoise;}
